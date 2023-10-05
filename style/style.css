@@ -1,0 +1,43 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f0e17;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.blue{
+    background-color: #3535ec;
+}
+
+.pink {
+    background-color: #f71668;
+}
+
+
+
+.font-pink{
+    color: #f71668;
+}
+
+.font-orange{
+    color: #f68506;
+}
